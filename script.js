@@ -1,5 +1,4 @@
 const draw_btn = document.querySelector('#draw_btn');
-const text_fill = document.querySelector('#text_fill');
 const image_input = document.querySelector('#image_input');
 var uploaded_image = '';
 
@@ -14,10 +13,7 @@ image_input.addEventListener('change', function () {
 	reader.readAsDataURL(this.files[0]);
 });
 
-{
-	/* draw_btn.addEventListener('change', function () {
-	document.querySelector(
-		'#display_image'
-	).textContent = `${text_fill.value}`;
-}); */
-}
+draw_btn.addEventListener('click', function () {
+	const text_fill = document.querySelector('#text_fill').value;
+	document.querySelector('#display_image').textContent = `${text_fill}`;
+});
