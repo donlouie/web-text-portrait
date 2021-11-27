@@ -22,14 +22,16 @@ Web art using html, css, and image file
 <!-- This is an example of how you may give instructions on setting up your project locally.
 To get a local copy up and running follow these simple example steps. -->
 
+1. Upload desired image
+2. To change the test. Type your desired text in the text area (max.7100char) and click draw button
+
 ### 📝️Prerequisites
 
 <!-- This is an example of how to list things you need to use the software and how to install them. -->
 
-
 ### 🛠️ Installation
 
-1. -
+1.  -
     ```sh
     git clone
     ```
