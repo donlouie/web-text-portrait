@@ -15,5 +15,6 @@ image_input.addEventListener('change', function () {
 
 draw_btn.addEventListener('click', function () {
 	const text_fill = document.querySelector('#text_fill').value;
+
 	document.querySelector('#display_image').textContent = `${text_fill}`;
 });
