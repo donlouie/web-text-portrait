@@ -4,10 +4,11 @@
 
 <!-- [![Product Name Screen Shot][product-screenshot]](https://example.com) -->
 
-Web art using html, css, and image file
+Text image using html, css, and image file
 
 ### 🖼️ Image Preview
 
+![Imgur](https://i.imgur.com/MAUuq3m.png)
 ![Imgur](https://i.imgur.com/TcOpPen.png)
 
 ### 🏗️ Built With
